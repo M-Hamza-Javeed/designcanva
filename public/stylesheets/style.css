@@ -1,8 +1,22 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
 body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  display:flex;flex-direction:column;align-items:center;background-color:#130c06;
+}
+.heading{
+  margin-top:20px;color: #a46531;padding: 20px;background-color: #643415;
+  border-radius: 45px 0px;border: 1px solid #4a2a14;
+  text-shadow: 1px 1px 2px #26160bc4;
 }
 
-a {
-  color: #00B7FF;
+.index{
+  color:#fff;padding:10px 40px;background:#000;font-weight:bold;
+}
+
+.palette-container{
+  padding:20px;margin:50px 30px;background:#311e11;box-shadow: 1px 1px 5px #14383eb8;display:flex;flex-wrap: wrap;
+}
+
+.palette-container-inner{
+display: flex;margin:5px;padding:5px;box-shadow: 1px 1px 5px;flex-direction:column;justify-content: center;align-items: center;
 }
